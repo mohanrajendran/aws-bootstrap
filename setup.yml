@@ -5,7 +5,7 @@ Parameters:
     Type: String
     Description: 'The S3 bucket for CodePipeline artifacts.'
 
-  Resources:
+Resources:
     CodePipelineS3Bucket:
       Type: AWS::S3::Bucket
       DeletionPolicy: Retain
